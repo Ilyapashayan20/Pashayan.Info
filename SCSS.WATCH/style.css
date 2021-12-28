@@ -12,7 +12,8 @@ body {
 }
 
 .header-active {
-  background: #2525be;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #62c0ff 50%, #00b6ff00 100%);
   transition: 0.4s;
 }
 
@@ -103,7 +104,7 @@ a {
   content: "</Pashayan>";
 }
 .wrapper .header .menu .logo-block .logo-active {
-  color: white;
+  color: #000000;
   transition: 0.3s;
 }
 @media (max-width: 970px) {
@@ -170,7 +171,7 @@ a {
   }
 }
 .wrapper .header .menu .hamburger .line-active {
-  stroke: white;
+  stroke: #000000;
   transition: 0.3s;
 }
 .wrapper .header .menu .hamburger .ham7 .top {
@@ -206,12 +207,12 @@ a {
   font-weight: 500;
   font-size: 26px;
   line-height: 39px;
-  color: white;
+  color: #000000;
   opacity: 0.7;
   margin-bottom: 15px;
 }
 .wrapper .header .mobile-menu .menu-link-mobile:hover {
-  color: white;
+  color: #000000;
   opacity: 1;
   font-weight: 600;
 }
@@ -221,7 +222,7 @@ a {
   }
 }
 .wrapper .header .mobile-menu .menu-link-active-mobile {
-  color: white;
+  color: #000000;
   opacity: 1;
   font-weight: 600;
 }

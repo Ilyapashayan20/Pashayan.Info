@@ -33,7 +33,10 @@ body{
     box-sizing: border-box;
 }
 .header-active{
-    background: #2525be;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #62c0ff 50%, #00b6ff00 100%);
+    
+
     transition: 0.4s;
 }
 .header-active-telegram{
@@ -94,7 +97,7 @@ a{
                      }
                 }
                 .logo-active{
-                    color: white;
+                    color: #000000;
                     transition: 0.3s;
                 }
             }
@@ -160,7 +163,7 @@ a{
     }
   }
   .line-active{
-      stroke: white;
+      stroke: #000000;
       transition: 0.3s;
   }
   
@@ -202,11 +205,11 @@ a{
                 font-weight: 500;
                 font-size: 26px;
                 line-height: 39px;
-                color: white;
+                color: #000000;
                 opacity: 0.7;
                 margin-bottom: 15px;
                 &:hover{
-                    color: white;
+                    color: #000000;
                     opacity: 1;
                     font-weight: 600;
                 }
@@ -218,7 +221,7 @@ a{
             }
             .menu-link-active-mobile{
 
-                color: white;
+                color: #000000;
                 opacity: 1;
                 font-weight: 600;
                 
