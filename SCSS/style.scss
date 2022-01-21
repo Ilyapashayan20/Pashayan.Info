@@ -654,6 +654,64 @@ a{
                 }
             }
         }
+        .nft-block{
+            background-color: #1b46d1;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            .nft-block-body{
+                @include center();
+                @media (max-width: 1915px) {
+                    padding: 40px 32px;
+                }
+
+                .nft-title{
+                    text-align: center;
+                    color: white;
+                    padding-top: 20px;
+                }
+                .nft-imgs-block{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 40px;
+                
+                  
+                    .nft{
+                     
+                        .nft-img{
+                            width: 200px;
+                            cursor: pointer;
+                            margin: 0px 10px;
+                            transition: 0.5s;
+                          
+                            &:hover{
+                                transform: scale(1.02);
+                            }
+
+                        }
+                    }
+                }
+                .nft-buy-link{
+                    text-align: center;
+                    color: white;
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                    cursor: pointer;
+                    display: flex;
+                    background-color: #0093E9;
+                    background-image: linear-gradient(160deg, #127cb9 0%, #8098d0 100%);
+                    border-radius: 17px;
+                    padding: 15px 23px;
+                   width: 100px;
+                   transition: 0.8s;
+                  margin: 0 auto;
+                  &:hover{
+                    box-shadow: 1px 3px 24px 2px #4fc9e7;
+                  }
+                }
+
+            }
+
+        }
         // about
         .about{
             background-color: #101c45;
